@@ -96,17 +96,26 @@
 				"clearControlAggregation": false
 			},
 			"routes": [{
-				"name": "RouteView1",
-				"pattern": "RouteView1",
-				"target": ["TargetView1"]
+				"name": "View1",
+				"pattern": "View1",
+				"target":"View1"
+            },
+            {
+				"pattern": "detail",
+				"name": "detail",
+				"target": "detail"
 			}],
 			"targets": {
-				"TargetView1": {
+				"View1": {
 					"viewType": "XML",
 					"transition": "slide",
 					"clearControlAggregation": false,
 					"viewId": "View1",
 					"viewName": "View1"
+                },
+				"detail": {
+				"viewId": "detail",
+				"viewName": "Detail"
 				}
 			}
 		}
