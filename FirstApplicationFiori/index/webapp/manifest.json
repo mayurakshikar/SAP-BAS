@@ -17,7 +17,7 @@
         },
         
         "crossNavigation": {
-    "inbounds": {
+        "inbounds": {
         "intent1": {
             "signature": {
                 "parameters": {},
@@ -95,23 +95,23 @@
 				"controlId": "app",
 				"clearControlAggregation": false
 			},
-			"routes": [{
-				"name": "View1",
-				"pattern": "View1",
-				"target":"View1"
+			"routes": [
+                {
+				"name": "overview",
+				"pattern": "",
+				"target":"overview"
             },
+
             {
 				"pattern": "detail",
 				"name": "detail",
 				"target": "detail"
 			}],
 			"targets": {
-				"View1": {
-					"viewType": "XML",
-					"transition": "slide",
-					"clearControlAggregation": false,
-					"viewId": "View1",
-					"viewName": "View1"
+				
+                "overview": {
+					"viewId": "overview",
+					"viewName": "Overview"
                 },
 				"detail": {
 				"viewId": "detail",

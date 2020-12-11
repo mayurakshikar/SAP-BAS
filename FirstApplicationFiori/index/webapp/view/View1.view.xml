@@ -4,9 +4,8 @@
 			<pages>
 				<Page id="page" title="{i18n>title}">
 					<content>
-                    <Input placeholder="Enter Your Name" width="50%" value="{/recipient/name}" 
-                    description=" Hello {/recipient/name}" valueLiveUpdate="true"></Input>
-                    <Button text="Go to next page" width="25%" press="OnPress"></Button>
+                        <mvc:XMLView viewName="index.index.view.Overview"></mvc:XMLView>
+                        <mvc:XMLView viewName="index.index.view.Detail"></mvc:XMLView>
                     </content>
 				</Page>
 			</pages>

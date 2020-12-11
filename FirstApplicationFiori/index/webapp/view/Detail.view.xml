@@ -1,8 +1,9 @@
-<mvc:View xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+<mvc:View xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m"
+controllerName="index.index.controller.detail">
 	<Shell id="shell">
 		<App id="app">
 			<pages>
-				<Page id="page" title="{i18n>title}">
+				<Page id="page" title="{i18n>title}" showNavButton="true" navButtonPress=".onNavBack">
 					<content>
                     <Label text="Welcome {/recipient/name}" class="sapUiSmallMargin"></Label>
                     </content>
