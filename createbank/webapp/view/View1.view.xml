@@ -1,0 +1,102 @@
+<mvc:View
+    controllerName="ns.createbank.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+	xmlns:core="sap.ui.core"
+    xmlns:grid="sap.ui.layout.cssgrid"
+    xmlns:f="sap.f"
+>
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" showHeader="false">
+					<content>
+                    <Bar class="UibarColor">
+                        <contentLeft>
+                            <Image src="{i18n>img2}" width="140px"/>
+                        </contentLeft>
+                        <contentMiddle>
+                            <!-- <Text text="Burberry" class="textColorUi"></Text> -->
+                        </contentMiddle>
+                        <contentRight>
+                            <Image src="{i18n>img1}" width="140px"/>
+                        </contentRight>
+                    </Bar>
+                    <List
+	                    id="bList" 
+                        headerText="Bank"
+                        class="sapUiResponsiveMargin"
+                        width="auto"
+                        items="{mcode>/bank}"
+                         >
+   	  
+   	                    <!-- SEARCH Bar  -->
+   	                    <headerToolbar>
+                        <Toolbar>
+                        <Title text="{i18n>bankListTitle}"/>
+                        <ToolbarSpacer/>
+
+                        <ComboBox
+			            id="idComboBox1"
+                        showSecondaryValues="true"
+                        placeholder="Country Code"
+                        selectionChange="comboBoxMapping"                    
+			            items="{
+				        path: 'mcode>/bank',
+				        sorter: { path: 'mcode>CountryCode' }
+			            }"
+			            change="handleChange">
+			            <core:ListItem key="{mcode>CountryCode}"  text="{mcode>CountryCode}" additionalText="{mcode>CountryName}" />
+		                </ComboBox>
+
+                        <ComboBox
+			            id="idComboBox2"
+                        placeholder="Bank Code"
+			            items="{
+				        path: 'mcode>/bank',
+				        sorter: { path: 'mcode>BankCode' }
+			            }"
+			            change="handleChange">
+			            <core:ListItem key="{mcode>BankCode}"  text="{mcode>BankCode}" />
+		                </ComboBox>
+
+                        <!-- <Input id="ip1" placeholder="Country Code" width="30%" ></Input> -->
+                        <!-- <Input id="ip2" placeholder="Bank Code" width="30%" ></Input> -->
+                        <Button icon="sap-icon://search" press=".onFilterBank" class="buttonColorblk"></Button>
+                        <Button icon="sap-icon://add" press=".onCreateNew" class="buttonColorblk"></Button>
+
+                        </Toolbar>
+                        </headerToolbar>
+   	                    <StandardListItem
+			                title="{mcode>CountryName}"
+			                description="{mcode>CountryCode}"	
+                            info="{mcode>BankCode}"
+                            
+			            />
+                           
+                        
+                        </List>
+						<!-- <f:GridList id="gridList1" headerText="{i18n>bankListTitle}" class="gridcls">
+								<f:customLayout>
+									<grid:GridBoxLayout boxWidth="15rem"/>
+								</f:customLayout>
+								<f:GridListItem>
+									<VBox height="100%" justifyContent="Center">
+										<VBox class="sapUiSmallMargin" alignContent="Center">
+											
+											<Label text="Country Code" class="sapUiTinyMarginBottom"/>
+											<Input/>
+											<Label text="Bank Code" class="sapUiTinyMarginBottom"/>
+											<Input/>
+											<Button text="Create"/>
+										</VBox>
+									</VBox>
+								</f:GridListItem>
+						</f:GridList> -->
+                    </content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>

@@ -1,0 +1,31 @@
+<core:FragmentDefinition
+   xmlns="sap.m"
+   xmlns:core="sap.ui.core"
+   controller="ns.createbank.controller.View1" >
+   <Dialog
+      id="createNew"
+      title ="Create New">
+      <content>
+        <VBox >
+            <Label text="Country Code :" class="sapUiTinyMargin"></Label>
+            <Input  width="250px" class="sapUiTinyMargin"></Input>
+        </VBox>
+        <VBox >
+            <Label text="Bank Code : " class="sapUiTinyMargin"></Label>
+            <Input  width="250px" class="sapUiTinyMargin"></Input>
+        </VBox>
+      </content>
+      <beginButton>
+         <Button
+            text="{i18n>dialogCreateButtonText}"
+            press=".onCreateDialog"
+            />
+      </beginButton>
+      <endButton>
+        <Button
+            text="{i18n>dialogCloseButtonText}"
+            press=".onCloseDialog"
+            />
+      </endButton>
+   </Dialog>
+</core:FragmentDefinition>

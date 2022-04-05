@@ -1,0 +1,87 @@
+{
+    "inputs": [
+        {
+            "id": "UI5Version",
+            "type": "command",
+            "command": "sap.ux.appGenerator.ui5Version"
+        }
+    ],
+    "configurations": [
+        {
+            "name": "Start foodandbev",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "npx",
+            "cwd": "${workspaceFolder}/foodandbev",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--open",
+                "'test/flpSandbox.html#foodandbev-tile'"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "DEBUG": "--inspect",
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/productextodata/foodandbev\"}"
+            }
+        },
+        {
+            "name": "Start foodandbev Mock",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/foodandbev",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--open",
+                "'test/flpSandboxMockServer.html#foodandbev-tile'"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/productextodata/foodandbev\"}"
+            }
+        },
+        {
+            "name": "Start foodandbev Local",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/foodandbev",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--config",
+                "./ui5-local.yaml",
+                "--open",
+                "'test/flpSandboxMockServer.html#foodandbev-tile'"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/productextodata/foodandbev\"}"
+            }
+        }
+    ],
+    "compounds": []
+}

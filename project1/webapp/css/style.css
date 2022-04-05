@@ -1,0 +1,40 @@
+/* Enter your custom styles here */
+.fontstyle{
+    font-family: cursive;
+    font-size: 1.5rem;
+}
+.bgcolor{
+    background-color: white;
+}
+.color{
+    background-color: rgb(220, 237, 243);
+    /* background-color: white; */
+}
+.btnColor{
+    color: #0C2D48 !important;
+}
+.padding{
+    padding-left: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-right: 3rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 1rem;
+}
+.UibarColor{
+    background-color: #0C2D48 !important;
+}
+.textColorUi{
+    color: white !important;
+}
+/* .boxshadow{
+    box-shadow: 0rem 0rem 0.05rem 0.05rem #2f6c75;
+} */
+/* .verticalLine {
+            height: 40%;
+            border-right: 1px solid #000900;
+            position: absolute;
+            right: 80%;
+            top: 20%
+} */

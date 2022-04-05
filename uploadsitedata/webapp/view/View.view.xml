@@ -1,0 +1,23 @@
+<mvc:View
+    controllerName="ns.uploadsitedata.controller.View"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:u="sap.ui.unified"
+>
+    <Shell id="shell">
+        <App id="app">
+            <pages>
+                <Page id="page" title="{i18n>title}">
+                    <content>
+                        <OverflowToolbar id="_IDGenOverflowToolbar1">
+                            <ToolbarSpacer id="_IDGenToolbarSpacer1"/>
+                                <u:FileUploader class="sapUiTinyMarginBegin" id="FileUploaderid" width="35%" placeholder="Choose a file" name="myFileUpload"  change="onhandleUpload" fileType="xlsx,XLSX"/>
+                        </OverflowToolbar>
+                        <Table id="Tableid" growing="true" growingScrollToLoad="true" mode="MultiSelect"></Table>
+                    </content>
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>

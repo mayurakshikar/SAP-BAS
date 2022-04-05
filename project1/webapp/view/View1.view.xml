@@ -1,0 +1,42 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:l="sap.ui.layout" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="ns.project1.controller.View1" displayBlock="true">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" showHeader="false">
+                    
+					<content>
+                    <Bar class="UibarColor">
+                        <contentLeft>
+                            <Image src="{i18n>img2}" width="60px"/>
+                            <Text text="{i18n>title}" class="textColorUi"></Text>
+                        </contentLeft>
+                        <contentMiddle>
+                            <!-- <Text text="Burberry" class="textColorUi"></Text> -->
+                        </contentMiddle>
+                        <contentRight>
+                            <Image src="{i18n>img1}" width="140px"/>
+                        </contentRight>
+                    </Bar>
+
+                        <VBox fitContainer="true" justifyContent="SpaceBetween" class="color" alignItems="Center" alignContent="Start">
+                        <VBox class="bgcolor padding boxshadow">
+                            <items>
+                                <Label text="Log On" class="fontstyle"/><html:hr />
+                                <Input id="uid" placeholder="Email Id"/>
+                                <Input id="pasw" placeholder="Password" type="Password"/>
+                                <CheckBox text="Remember Me"/>
+                                <Link text="Forgot Password"/>
+                                <Button width="12rem" text="Log On" type="Emphasized" press="onLoginTap" class="btnColor"/>
+                            </items>
+                            
+                            <!-- <FlexBox class="imageresize" justifyContent="Start" >
+                            <Image width="50px" src="https://sapui5.hana.ondemand.com/resources/sap/ui/documentation/sdk/images/logo_sap.png"/>                       
+                            </FlexBox> -->
+                        </VBox>
+                        </VBox>
+                        </content>                        
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>

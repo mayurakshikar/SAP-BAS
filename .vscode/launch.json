@@ -1,0 +1,1585 @@
+{
+    "configurations": [
+        {
+            "name": "Start createbank",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "npm",
+            "cwd": "${workspaceFolder}/createbank",
+            "windows": {
+                "runtimeExecutable": "npm.cmd"
+            },
+            "runtimeArgs": [
+                "run-script",
+                "start"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "DEBUG": "--inspect",
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/createbank\"}"
+            }
+        },
+        {
+            "name": "Start createbank Mock",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/createbank",
+            "runtimeExecutable": "npm",
+            "windows": {
+                "runtimeExecutable": "npm.cmd"
+            },
+            "runtimeArgs": [
+                "run-script",
+                "start-mock"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/createbank\"}"
+            }
+        },
+        {
+            "name": "Start createbank Local",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/createbank",
+            "runtimeExecutable": "npm",
+            "windows": {
+                "runtimeExecutable": "npm.cmd"
+            },
+            "runtimeArgs": [
+                "run-script",
+                "start-local"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/createbank\"}"
+            }
+        },
+        {
+            "name": "Start voiverecog",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "npm",
+            "cwd": "${workspaceFolder}/voiverecog",
+            "windows": {
+                "runtimeExecutable": "npm.cmd"
+            },
+            "runtimeArgs": [
+                "run-script",
+                "start"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "DEBUG": "--inspect",
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/voiverecog\"}"
+            }
+        },
+        {
+            "name": "Start voiverecog Mock",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/voiverecog",
+            "runtimeExecutable": "npm",
+            "windows": {
+                "runtimeExecutable": "npm.cmd"
+            },
+            "runtimeArgs": [
+                "run-script",
+                "start-mock"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/voiverecog\"}"
+            }
+        },
+        {
+            "name": "Start voiverecog Local",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/voiverecog",
+            "runtimeExecutable": "npm",
+            "windows": {
+                "runtimeExecutable": "npm.cmd"
+            },
+            "runtimeArgs": [
+                "run-script",
+                "start-local"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/voiverecog\"}"
+            }
+        },
+        {
+            "name": "Start project1",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "npm",
+            "cwd": "${workspaceFolder}/project1",
+            "windows": {
+                "runtimeExecutable": "npm.cmd"
+            },
+            "runtimeArgs": [
+                "run-script",
+                "start"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "DEBUG": "--inspect",
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/project1\"}"
+            }
+        },
+        {
+            "name": "Start project1 Mock",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/project1",
+            "runtimeExecutable": "npm",
+            "windows": {
+                "runtimeExecutable": "npm.cmd"
+            },
+            "runtimeArgs": [
+                "run-script",
+                "start-mock"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/project1\"}"
+            }
+        },
+        {
+            "name": "Start project1 Local",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/project1",
+            "runtimeExecutable": "npm",
+            "windows": {
+                "runtimeExecutable": "npm.cmd"
+            },
+            "runtimeArgs": [
+                "run-script",
+                "start-local"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/project1\"}"
+            }
+        },
+        {
+            "name": "Start listrepo",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "npx",
+            "cwd": "${workspaceFolder}/listrepo",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--open",
+                "'test/flpSandbox.html?sap-client=002#nslistrepo-tile'"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "DEBUG": "--inspect",
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/listrepo\"}"
+            }
+        },
+        {
+            "name": "Start listrepo Mock",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/listrepo",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--open",
+                "'test/flpSandboxMockServer.html?sap-client=002#nslistrepo-tile'"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/listrepo\"}"
+            }
+        },
+        {
+            "name": "Start listrepo Local",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/listrepo",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--config",
+                "./ui5-local.yaml",
+                "--open",
+                "'test/flpSandboxMockServer.html?sap-client=002#nslistrepo-tile'"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/listrepo\"}"
+            }
+        },
+        {
+            "name": "Start listrepo",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "npx",
+            "cwd": "${workspaceFolder}/listrepo",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--open",
+                "'test/flpSandbox.html?sap-client=002#nslistrepo-tile'"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "DEBUG": "--inspect",
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/listrepo\"}"
+            }
+        },
+        {
+            "name": "Start listrepo Mock",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/listrepo",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--open",
+                "'test/flpSandboxMockServer.html?sap-client=002#nslistrepo-tile'"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/listrepo\"}"
+            }
+        },
+        {
+            "name": "Start listrepo Local",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/listrepo",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--config",
+                "./ui5-local.yaml",
+                "--open",
+                "'test/flpSandboxMockServer.html?sap-client=002#nslistrepo-tile'"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/listrepo\"}"
+            }
+        },
+        {
+            "name": "Start listrepo_so",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "npx",
+            "cwd": "${workspaceFolder}/listrepo_so",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--open",
+                "'test/flpSandbox.html?sap-client=002#nslistreposo-tile'"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "DEBUG": "--inspect",
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/listrepo_so\"}"
+            }
+        },
+        {
+            "name": "Start listrepo_so Mock",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/listrepo_so",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--open",
+                "'test/flpSandboxMockServer.html?sap-client=002#nslistreposo-tile'"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/listrepo_so\"}"
+            }
+        },
+        {
+            "name": "Start listrepo_so Local",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/listrepo_so",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--config",
+                "./ui5-local.yaml",
+                "--open",
+                "'test/flpSandboxMockServer.html?sap-client=002#nslistreposo-tile'"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/listrepo_so\"}"
+            }
+        },
+        {
+            "name": "Start analyticalrepo",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "npx",
+            "cwd": "${workspaceFolder}/analyticalrepo",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--open",
+                "'test/flpSandbox.html?sap-client=002#nsanalyticalrepo-tile'"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "DEBUG": "--inspect",
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/analyticalrepo\"}"
+            }
+        },
+        {
+            "name": "Start analyticalrepo Mock",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/analyticalrepo",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--open",
+                "'test/flpSandboxMockServer.html?sap-client=002#nsanalyticalrepo-tile'"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/analyticalrepo\"}"
+            }
+        },
+        {
+            "name": "Start analyticalrepo Local",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/analyticalrepo",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--config",
+                "./ui5-local.yaml",
+                "--open",
+                "'test/flpSandboxMockServer.html?sap-client=002#nsanalyticalrepo-tile'"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/analyticalrepo\"}"
+            }
+        },
+        {
+            "name": "Start lisrrepoproduct",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "npx",
+            "cwd": "${workspaceFolder}/lisrrepoproduct",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--open",
+                "'test/flpSandbox.html?sap-client=002#nslisrrepoproduct-tile'"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "DEBUG": "--inspect",
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/lisrrepoproduct\"}"
+            }
+        },
+        {
+            "name": "Start lisrrepoproduct Mock",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/lisrrepoproduct",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--open",
+                "'test/flpSandboxMockServer.html?sap-client=002#nslisrrepoproduct-tile'"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/lisrrepoproduct\"}"
+            }
+        },
+        {
+            "name": "Start lisrrepoproduct Local",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/lisrrepoproduct",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--config",
+                "./ui5-local.yaml",
+                "--open",
+                "'test/flpSandboxMockServer.html?sap-client=002#nslisrrepoproduct-tile'"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/lisrrepoproduct\"}"
+            }
+        },
+        {
+            "name": "Start flightdetails",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "npx",
+            "cwd": "${workspaceFolder}/flightdetails",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--open",
+                "'test/flpSandbox.html?sap-client=002#nsflightdetails-tile'"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "DEBUG": "--inspect",
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/flightdetails\"}"
+            }
+        },
+        {
+            "name": "Start flightdetails Mock",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/flightdetails",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--open",
+                "'test/flpSandboxMockServer.html?sap-client=002#nsflightdetails-tile'"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/flightdetails\"}"
+            }
+        },
+        {
+            "name": "Start flightdetails Local",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/flightdetails",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--config",
+                "./ui5-local.yaml",
+                "--open",
+                "'test/flpSandboxMockServer.html?sap-client=002#nsflightdetails-tile'"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/flightdetails\"}"
+            }
+        },
+        {
+            "name": "Start listrepobooking",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "npx",
+            "cwd": "${workspaceFolder}/listrepobooking",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--open",
+                "'test/flpSandbox.html?sap-client=002#nslistrepobooking-tile'"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "DEBUG": "--inspect",
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/listrepobooking\"}"
+            }
+        },
+        {
+            "name": "Start listrepobooking Mock",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/listrepobooking",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--open",
+                "'test/flpSandboxMockServer.html?sap-client=002#nslistrepobooking-tile'"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/listrepobooking\"}"
+            }
+        },
+        {
+            "name": "Start listrepobooking Local",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/listrepobooking",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--config",
+                "./ui5-local.yaml",
+                "--open",
+                "'test/flpSandboxMockServer.html?sap-client=002#nslistrepobooking-tile'"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/listrepobooking\"}"
+            }
+        },
+        {
+            "name": "Start productextodata",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "npx",
+            "cwd": "${workspaceFolder}/productextodata",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--open",
+                "'test/flpSandbox.html#nsproductextodata-tile'"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "DEBUG": "--inspect",
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/productextodata\"}"
+            }
+        },
+        {
+            "name": "Start productextodata Mock",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/productextodata",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--open",
+                "'test/flpSandboxMockServer.html#nsproductextodata-tile'"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/productextodata\"}"
+            }
+        },
+        {
+            "name": "Start productextodata Local",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/productextodata",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--config",
+                "./ui5-local.yaml",
+                "--open",
+                "'test/flpSandboxMockServer.html#nsproductextodata-tile'"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/productextodata\"}"
+            }
+        },
+        {
+            "name": "Start foodandbev",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "npx",
+            "cwd": "${workspaceFolder}/foodandbev",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--open",
+                "'test/flpSandbox.html#foodandbev-tile'"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "DEBUG": "--inspect",
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/foodandbev\"}"
+            }
+        },
+        {
+            "name": "Start foodandbev Mock",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/foodandbev",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--open",
+                "'test/flpSandboxMockServer.html#foodandbev-tile'"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/foodandbev\"}"
+            }
+        },
+        {
+            "name": "Start foodandbev Local",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/foodandbev",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--config",
+                "./ui5-local.yaml",
+                "--open",
+                "'test/flpSandboxMockServer.html#foodandbev-tile'"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/foodandbev\"}"
+            }
+        },
+        {
+            "name": "Start barcodescanner",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "npx",
+            "cwd": "${workspaceFolder}/barcodescanner",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--open",
+                "'test/flpSandbox.html#nsbarcodescanner-display'"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "DEBUG": "--inspect",
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/barcodescanner\"}"
+            }
+        },
+        {
+            "name": "Start barcodescanner Local",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/barcodescanner",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--config",
+                "./ui5-local.yaml",
+                "--open",
+                "'test/flpSandbox.html#nsbarcodescanner-display'"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/barcodescanner\"}"
+            }
+        },
+        {
+            "name": "Start barcodescannerbutton",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "npx",
+            "cwd": "${workspaceFolder}/barcodescannerbutton",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--open",
+                "'test/flpSandbox.html#nsbarcodescannerbutton-display'"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "DEBUG": "--inspect",
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/barcodescannerbutton\"}"
+            }
+        },
+        {
+            "name": "Start barcodescannerbutton Local",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/barcodescannerbutton",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--config",
+                "./ui5-local.yaml",
+                "--open",
+                "'test/flpSandbox.html#nsbarcodescannerbutton-display'"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/barcodescannerbutton\"}"
+            }
+        },
+        {
+            "name": "Start uploadsite",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "npx",
+            "cwd": "${workspaceFolder}/uploadsite",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--open",
+                "'test/flpSandbox.html#nsuploadsite-display'"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "DEBUG": "--inspect",
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/uploadsite\"}"
+            }
+        },
+        {
+            "name": "Start uploadsite Local",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/uploadsite",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--config",
+                "./ui5-local.yaml",
+                "--open",
+                "'test/flpSandbox.html#nsuploadsite-display'"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/uploadsite\"}"
+            }
+        },
+        {
+            "name": "Start uploadsitedata",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "npx",
+            "cwd": "${workspaceFolder}/uploadsitedata",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--open",
+                "'test/flpSandbox.html#nsuploadsitedata-display'"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "DEBUG": "--inspect",
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/uploadsitedata\"}"
+            }
+        },
+        {
+            "name": "Start uploadsitedata Local",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/uploadsitedata",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--config",
+                "./ui5-local.yaml",
+                "--open",
+                "'test/flpSandbox.html#nsuploadsitedata-display'"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/uploadsitedata\"}"
+            }
+        },
+        {
+            "name": "Start smartcontrol",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "npx",
+            "cwd": "${workspaceFolder}/smartcontrol",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--open",
+                "test/flpSandbox.html?sap-ui-xx-viewCache=false#nssmartcontrol-display"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "DEBUG": "--inspect",
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/smartcontrol\"}"
+            }
+        },
+        {
+            "name": "Start smartcontrol Mock",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/smartcontrol",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--config",
+                "./ui5-mock.yaml",
+                "--open",
+                "test/flpSandbox.html?sap-ui-xx-viewCache=false#nssmartcontrol-display"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/smartcontrol\"}"
+            }
+        },
+        {
+            "name": "Start smartcontrol Local",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/smartcontrol",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--config",
+                "./ui5-local.yaml",
+                "--open",
+                "test/flpSandbox.html?sap-ui-xx-viewCache=false#nssmartcontrol-display"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/smartcontrol\"}"
+            }
+        },
+        {
+            "name": "Start odatav4",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "npx",
+            "cwd": "${workspaceFolder}/odatav4",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--open",
+                "test/flpSandbox.html?sap-ui-xx-viewCache=false#nsodatav4-display"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "DEBUG": "--inspect",
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/odatav4\"}"
+            }
+        },
+        {
+            "name": "Start odatav4 Mock",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/odatav4",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--config",
+                "./ui5-mock.yaml",
+                "--open",
+                "test/flpSandbox.html?sap-ui-xx-viewCache=false#nsodatav4-display"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/odatav4\"}"
+            }
+        },
+        {
+            "name": "Start odatav4 Local",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/odatav4",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--config",
+                "./ui5-local.yaml",
+                "--open",
+                "test/flpSandbox.html?sap-ui-xx-viewCache=false#nsodatav4-display"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/odatav4\"}"
+            }
+        },
+        {
+            "name": "Start zleaveform",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "npx",
+            "cwd": "${workspaceFolder}/zleaveform",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--open",
+                "test/flpSandbox.html?sap-ui-xx-viewCache=false#zleaveformzleaveform-display"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "DEBUG": "--inspect",
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/zleaveform\"}"
+            }
+        },
+        {
+            "name": "Start zleaveform Local",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/zleaveform",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--config",
+                "./ui5-local.yaml",
+                "--open",
+                "test/flpSandbox.html?sap-ui-xx-viewCache=false#zleaveformzleaveform-display"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/zleaveform\"}"
+            }
+        },
+        {
+            "name": "Start todolist",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "npx",
+            "cwd": "${workspaceFolder}/todolist",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--open",
+                "test/flpSandbox.html?sap-ui-xx-viewCache=false#todolist-display"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "DEBUG": "--inspect",
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/todolist\"}"
+            }
+        },
+        {
+            "name": "Start todolist Local",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/todolist",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--config",
+                "./ui5-local.yaml",
+                "--open",
+                "test/flpSandbox.html?sap-ui-xx-viewCache=false#todolist-display"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/todolist\"}"
+            }
+        },
+        {
+            "name": "Start suppliers",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "npx",
+            "cwd": "${workspaceFolder}/suppliers",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--open",
+                "test/flpSandbox.html?sap-ui-xx-viewCache=false#suppliers-tile"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "DEBUG": "--inspect",
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/suppliers\"}"
+            }
+        },
+        {
+            "name": "Start suppliers Mock",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/suppliers",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--config",
+                "./ui5-mock.yaml",
+                "--open",
+                "test/flpSandbox.html?sap-ui-xx-viewCache=false#suppliers-tile"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/suppliers\"}"
+            }
+        },
+        {
+            "name": "Start suppliers Local",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/suppliers",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--config",
+                "./ui5-local.yaml",
+                "--open",
+                "test/flpSandbox.html?sap-ui-xx-viewCache=false#suppliers-tile"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/suppliers\"}"
+            }
+        },
+        {
+            "name": "Start test",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "npx",
+            "cwd": "${workspaceFolder}/test",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--open",
+                "test/flpSandbox.html?sap-ui-xx-viewCache=false#test-display"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "DEBUG": "--inspect",
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/test\"}"
+            }
+        },
+        {
+            "name": "Start test Local",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/test",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--config",
+                "./ui5-local.yaml",
+                "--open",
+                "test/flpSandbox.html?sap-ui-xx-viewCache=false#test-display"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229,
+            "env": {
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/test\"}"
+            }
+        },
+        {
+            "name": "Start stackedbar",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "npx",
+            "cwd": "${workspaceFolder}/stackedbar",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--open",
+                "test/flpSandbox.html#stackedbar-display"
+            ],
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart",
+            "outputCapture": "std",
+            "port": 9229,
+            "env": {
+                "DEBUG": "--inspect",
+                "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false",
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/stackedbar\"}"
+            }
+        },
+        {
+            "name": "Start stackedbar Local",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/stackedbar",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--config",
+                "./ui5-local.yaml",
+                "--open",
+                "test/flpSandbox.html#stackedbar-display"
+            ],
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart",
+            "outputCapture": "std",
+            "port": 9229,
+            "env": {
+                "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false",
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/stackedbar\"}"
+            }
+        },
+        {
+            "name": "Start stkbarc",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "npx",
+            "cwd": "${workspaceFolder}/stkbarc",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--open",
+                "test/flpSandbox.html#stkbarc-display"
+            ],
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart",
+            "outputCapture": "std",
+            "port": 9229,
+            "env": {
+                "DEBUG": "--inspect",
+                "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false",
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/stkbarc\"}"
+            }
+        },
+        {
+            "name": "Start stkbarc Local",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/stkbarc",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--config",
+                "./ui5-local.yaml",
+                "--open",
+                "test/flpSandbox.html#stkbarc-display"
+            ],
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart",
+            "outputCapture": "std",
+            "port": 9229,
+            "env": {
+                "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false",
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/stkbarc\"}"
+            }
+        }
+    ],
+    "compounds": [],
+    "inputs": [
+        {
+            "id": "UI5Version",
+            "type": "command",
+            "command": "sap.ux.appGenerator.ui5Version"
+        },
+        {
+            "id": "UI5MinVersion1.84.0",
+            "type": "command",
+            "command": "sap.ux.appGenerator.ui5Version",
+            "args": {
+                "minUI5Version": "1.84.0"
+            }
+        },
+        {
+            "id": "UI5MinVersion1.65.0",
+            "type": "command",
+            "command": "sap.ux.appGenerator.ui5Version",
+            "args": {
+                "minUI5Version": "1.65.0"
+            }
+        }
+    ],
+    "version": "0.2.0"
+}

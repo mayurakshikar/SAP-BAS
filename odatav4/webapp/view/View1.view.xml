@@ -1,0 +1,65 @@
+<mvc:View
+    controllerName="ns.odatav4.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:smartFilterBar="sap.ui.comp.smartfilterbar"
+	xmlns:smartTable="sap.ui.comp.smarttable"
+    	xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1"
+>
+    <Shell id="shell">
+        <App id="app">
+            <pages>
+                <Page id="page" title="{i18n>title}">
+                    <content>
+                    	<!-- <Table id="idProductsTable"
+		                items="{
+			            path: '/SalesOrder'			
+		                }">	
+		                    <columns>
+			                    <Column width="12em">
+				                    <Text text="Sales Order" />
+			                    </Column>
+			                    <Column
+				                    minScreenWidth="Tablet"
+				                    demandPopin="true"
+                                >
+				                    <Text text="Company Name" />
+			                    </Column>
+			                    <Column
+				                    minScreenWidth="Desktop"
+				                    demandPopin="true"
+			                    >
+				                    <Text text="Customer Contact" />
+			                    </Column>
+			
+		                    </columns>
+		                    <items>
+			                <ColumnListItem vAlign="Middle">
+				                <cells>
+					                <ObjectIdentifier
+						                title="{Salesorder}"
+						                text="{Createdbyuser}"/>
+					                <Text
+						                text="{Companyname}" />
+                                    <Text
+						                text="{Customercontact}" />
+					            </cells>
+			                </ColumnListItem>
+		                    </items>
+	                    </Table> -->
+
+                        <smartTable:SmartTable id="LineItemsSmartTable" entitySet="SalesOrder" 
+                        smartFilterId="smartFilterBar" tableType="Table" useExportToExcel="true" beforeExport="onBeforeExport" useVariantManagement="true" useTablePersonalisation="true" header="Line Items" showRowCount="true" persistencyKey="SmartTableAnalytical_Explored" enableAutoBinding="true" class="sapUiResponsiveContentPadding" enableAutoColumnWidth="true" editTogglable="true" 
+                        app:useSmartToggle="true">
+				    <smartTable:layoutData>
+					<FlexItemData growFactor="1" baseSize="0%"/>
+				</smartTable:layoutData>
+			</smartTable:SmartTable>
+                        
+                    </content>
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>

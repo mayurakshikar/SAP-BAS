@@ -1,0 +1,32 @@
+<mvc:View
+    controllerName="todolist.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+    <Shell id="shell">
+        <App id="idAppControl">
+            <pages> 
+                <Page id="page" title="{i18n>title}">
+                    <IconTabHeader mode="Inline" id="iconTab" >
+		        <items>
+			        <IconTabFilter key="todo" text="To be done" />
+                    <IconTabFilter key="completedtasks" text="Completed Tasks" />
+                </items>
+                </IconTabHeader>
+                    <content>
+                        <List noDataText="No tasks for now." id="listTodo" inset="true" mode="Delete" delete="onDeleteItem"/>
+                        <List noDataText="No tasks for now." id="listDone" inset="true" mode="None" />
+                    </content>
+                    <footer>
+					<Toolbar width="100%" id="toolbarFooter">
+						<Input value="" placeholder="New task.." id="inputAddTask" liveChange="onLiveChangeAddTask"/>
+						<Button text="Add" id="buttonAddTask" type="Accept"  icon="sap-icon://add" press="onPressAddTask" enabled="false"/>					
+                    </Toolbar>
+				    </footer>
+                
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>

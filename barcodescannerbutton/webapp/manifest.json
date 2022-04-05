@@ -1,0 +1,145 @@
+{
+    "_version": "1.32.0",
+    "sap.app": {
+        "id": "ns.barcodescannerbutton",
+        "type": "application",
+        "i18n": "i18n/i18n.properties",
+        "applicationVersion": {
+            "version": "0.0.1"
+        },
+        "title": "{{appTitle}}",
+        "description": "{{appDescription}}",
+        "dataSources": {
+            "mainService": {
+                "uri": "/sap/opu/odata/",
+                "type": "OData",
+                "settings": {
+                    "annotations": [],
+                    "localUri": "localService/metadata.xml",
+                    "odataVersion": "4.0"
+                }
+            }
+        },
+        "crossNavigation": {
+            "inbounds": {
+                "ns-barcodescannerbutton-inbound": {
+                    "signature": {
+                        "parameters": {},
+                        "additionalParameters": "allowed"
+                    },
+                    "semanticObject": "scanbarcode",
+                    "action": "scan",
+                    "title": "{{flpTitle}}",
+                    "subTitle": "{{flpSubtitle}}",
+                    "icon": ""
+                }
+            }
+        }
+    },
+    "sap.ui": {
+        "technology": "UI5",
+        "icons": {
+            "icon": "",
+            "favIcon": "",
+            "phone": "",
+            "phone@2": "",
+            "tablet": "",
+            "tablet@2": ""
+        },
+        "deviceTypes": {
+            "desktop": true,
+            "tablet": true,
+            "phone": true
+        }
+    },
+    "sap.ui5": {
+        "flexEnabled": true,
+        "dependencies": {
+            "minUI5Version": "1.97.2",
+            "libs": {
+                "sap.ui.core": {},
+                "sap.m": {},
+				"sap.ndc": {}
+            }
+        },
+        "config": {
+			"sample": {
+				"stretch": true,
+				"files": [
+					"view/barcodescanwithbutton.view.xml",
+					"controller/barcodescanwithbutton.controller.js",
+					"manifest.json"
+				]
+			}
+		},
+        "contentDensities": {
+            "compact": true,
+            "cozy": true
+        },
+        "models": {
+            "i18n": {
+                "type": "sap.ui.model.resource.ResourceModel",
+                "settings": {
+                    "bundleName": "ns.barcodescannerbutton.i18n.i18n"
+                }
+            },
+            "": {
+                "dataSource": "mainService",
+                "preload": true,
+                "settings": {
+                    "synchronizationMode": "None",
+                    "operationMode": "Server",
+                    "autoExpandSelect": true,
+                    "earlyRequests": true,
+                    "groupId": "$direct"
+                }
+            }
+        },
+        "resources": {
+            "css": [
+                {
+                    "uri": "css/style.css"
+                }
+            ]
+        },
+        "routing": {
+            "config": {
+                "routerClass": "sap.m.routing.Router",
+                "viewType": "XML",
+                "async": true,
+                "viewPath": "ns.barcodescannerbutton.view",
+                "controlAggregation": "pages",
+                "controlId": "app",
+                "clearControlAggregation": false
+            },
+            "routes": [
+                {
+                    "name": "Routebarcodescanwithbutton",
+                    "pattern": "Routebarcodescanwithbutton",
+                    "target": [
+                        "Targetbarcodescanwithbutton"
+                    ]
+                }
+            ],
+            "targets": {
+                "Targetbarcodescanwithbutton": {
+                    "viewType": "XML",
+                    "transition": "slide",
+                    "clearControlAggregation": false,
+                    "viewId": "barcodescanwithbutton",
+                    "viewName": "barcodescanwithbutton"
+                }
+            }
+        },
+        "rootView": {
+            "viewName": "ns.barcodescannerbutton.view.barcodescanwithbutton",
+            "type": "XML",
+            "async": true,
+            "id": "barcodescanwithbutton"
+        }
+    },
+    "sap.cloud": {
+        "public": true,
+        "service": "ns-barcodescannerbutton"
+    }
+}

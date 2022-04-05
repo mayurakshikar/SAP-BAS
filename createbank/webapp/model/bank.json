@@ -1,0 +1,51 @@
+{
+    "bank": [
+        {
+            "CountryName": "India",
+            "CountryCode": "IN",
+            "BankCode": "IN001"
+            
+        },
+        {
+            "CountryName": "Sri Lanka",
+            "CountryCode": "SL",
+            "BankCode": "SL002"
+        },
+        {
+            "CountryName": "Australia",
+            "CountryCode": "AUS",
+            "BankCode": "AUS003"
+        },
+        {
+            "CountryName": "China",
+            "CountryCode": "CHN",
+            "BankCode": "CHN004"
+        },
+        {
+            "CountryName": "Argentina",
+            "CountryCode": "AG",
+            "BankCode": "AG005"
+        },
+        {
+            "CountryName": "Nepal",
+            "CountryCode": "NP",
+            "BankCode": "NP006"
+        },
+        {
+            "CountryName": "Bhutan",
+            "CountryCode": "BN",
+            "BankCode": "BN006"
+        },
+        {
+            "CountryName": "Hong Kong",
+            "CountryCode": "HK",
+            "BankCode": "HK007"
+        },
+        {
+            "CountryName": "America",
+            "CountryCode": "AM",
+            "BankCode": "AM006"
+        }
+
+    ]
+}

@@ -1,0 +1,19 @@
+<core:FragmentDefinition
+		xmlns="sap.m"
+		xmlns:core="sap.ui.core"
+        xmlns:u="sap.ui.unified"
+        >
+	<Dialog
+		id="UploadFile"
+		title="Upload Site Data"
+		class="sapUiContentPadding">
+        <HBox id="_IDGenHBox1" >
+        <Label id="_IDGenLabelF1" text="Choose File : " class="sapUiTinyMargin"></Label>
+		<u:FileUploader id="id_FileUploader" sameFilenameAllowed="true" iconOnly="false" fileType="XLSX,xlsx"
+									icon="sap-icon://upload" iconFirst="true" style="Transparent" change="onUpload"/>
+        </HBox>
+        <beginButton>
+			<Button id="_IDGenButton1" text="Close" press="onCloseDialog"/>
+		</beginButton>
+	</Dialog>
+</core:FragmentDefinition>

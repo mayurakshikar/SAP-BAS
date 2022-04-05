@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:sap="http://www.sap.com/Protocols/SAPData">
+    <edmx:Reference Uri="https://2019cf86-390a-4931-b310-a4158abf8829.abap.eu10.hana.ondemand.com/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_AGGREGATION',Version='0001',SAP__Origin='')/$value" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+        <edmx:Include Namespace="Org.OData.Aggregation.V1" Alias="Aggregation"/>
+    </edmx:Reference>
+    <edmx:Reference Uri="https://2019cf86-390a-4931-b310-a4158abf8829.abap.eu10.hana.ondemand.com/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_ANALYTICS',Version='0001',SAP__Origin='')/$value" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+        <edmx:Include Namespace="com.sap.vocabularies.Analytics.v1" Alias="Analytics"/>
+    </edmx:Reference>
+    <edmx:Reference Uri="https://2019cf86-390a-4931-b310-a4158abf8829.abap.eu10.hana.ondemand.com/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_CAPABILITIES',Version='0001',SAP__Origin='')/$value" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+        <edmx:Include Namespace="Org.OData.Capabilities.V1" Alias="Capabilities"/>
+    </edmx:Reference>
+    <edmx:Reference Uri="https://2019cf86-390a-4931-b310-a4158abf8829.abap.eu10.hana.ondemand.com/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_CODELIST',Version='0001',SAP__Origin='')/$value" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+        <edmx:Include Namespace="com.sap.vocabularies.CodeList.v1" Alias="SAP__CodeList"/>
+    </edmx:Reference>
+    <edmx:Reference Uri="https://2019cf86-390a-4931-b310-a4158abf8829.abap.eu10.hana.ondemand.com/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_COMMON',Version='0001',SAP__Origin='')/$value" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+        <edmx:Include Namespace="com.sap.vocabularies.Common.v1" Alias="Common"/>
+        <edmx:Include Namespace="com.sap.vocabularies.Common.v1" Alias="SAP__common"/>
+    </edmx:Reference>
+    <edmx:Reference Uri="https://2019cf86-390a-4931-b310-a4158abf8829.abap.eu10.hana.ondemand.com/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_COMMUNICATION',Version='0001',SAP__Origin='')/$value" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+        <edmx:Include Namespace="com.sap.vocabularies.Communication.v1" Alias="Communication"/>
+    </edmx:Reference>
+    <edmx:Reference Uri="https://2019cf86-390a-4931-b310-a4158abf8829.abap.eu10.hana.ondemand.com/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_CORE',Version='0001',SAP__Origin='')/$value" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+        <edmx:Include Namespace="Org.OData.Core.V1" Alias="SAP__core"/>
+    </edmx:Reference>
+    <edmx:Reference Uri="https://2019cf86-390a-4931-b310-a4158abf8829.abap.eu10.hana.ondemand.com/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_MEASURES',Version='0001',SAP__Origin='')/$value" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+        <edmx:Include Namespace="Org.OData.Measures.V1" Alias="Measures"/>
+    </edmx:Reference>
+    <edmx:Reference Uri="https://2019cf86-390a-4931-b310-a4158abf8829.abap.eu10.hana.ondemand.com/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_PERSONALDATA',Version='0001',SAP__Origin='')/$value" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+        <edmx:Include Namespace="com.sap.vocabularies.PersonalData.v1" Alias="PersonalData"/>
+    </edmx:Reference>
+    <edmx:Reference Uri="https://2019cf86-390a-4931-b310-a4158abf8829.abap.eu10.hana.ondemand.com/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_UI',Version='0001',SAP__Origin='')/$value" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+        <edmx:Include Namespace="com.sap.vocabularies.UI.v1" Alias="UI"/>
+    </edmx:Reference>
+    <edmx:Reference Uri="https://2019cf86-390a-4931-b310-a4158abf8829.abap.eu10.hana.ondemand.com/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_VALIDATION',Version='0001',SAP__Origin='')/$value" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+        <edmx:Include Namespace="Org.OData.Validation.V1" Alias="Validation"/>
+    </edmx:Reference>
+    <edmx:DataServices m:DataServiceVersion="2.0">
+        <Schema Namespace="cds_z_sdef_acc_doc" xml:lang="en" sap:schema-version="1" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+            <Annotation Term="Core.SchemaVersion" String="1.0.0" xmlns="http://docs.oasis-open.org/odata/ns/edm"/>
+            <EntityType Name="ACCDOCType" sap:label="Custom Entity for Accounting Document" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="CompanyCode"/>
+                    <PropertyRef Name="FiscalYear"/>
+                    <PropertyRef Name="AccountingDocument"/>
+                </Key>
+                <Property Name="CompanyCode" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="Company Code"/>
+                <Property Name="FiscalYear" Type="Edm.String" Nullable="false" MaxLength="4" sap:display-format="NonNegative" sap:label="Financial Year"/>
+                <Property Name="AccountingDocument" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Accounting Document"/>
+                <Property Name="AccountingDocumentItem" Type="Edm.String" MaxLength="3" sap:display-format="NonNegative" sap:label="Accounting Doc Item"/>
+                <Property Name="AuditNo" Type="Edm.Int32" sap:label="Audit No"/>
+                <Property Name="Rcode" Type="Edm.String" MaxLength="3" sap:label="R-Code"/>
+                <Property Name="Status" Type="Edm.String" MaxLength="3" sap:label="Status"/>
+                <Property Name="RiskType" Type="Edm.String" MaxLength="10" sap:label="Risk Type"/>
+                <Property Name="Source" Type="Edm.String" MaxLength="4" sap:label="Source"/>
+                <Property Name="criticality" Type="Edm.String" MaxLength="1" sap:display-format="NonNegative"/>
+                <Property Name="Supplier" Type="Edm.String" MaxLength="40" sap:label="Supplier Ref."/>
+                <Property Name="SupplierName" Type="Edm.String" MaxLength="50" sap:label="Supplier Name"/>
+                <Property Name="AmountInTransactionCurrency" Type="Edm.Decimal" Precision="23" Scale="3" sap:unit="TransactionCurrency" sap:variable-scale="true" sap:label="Invoice Amt"/>
+                <Property Name="Amount_WITHOUTTAX" Type="Edm.Decimal" Precision="23" Scale="3" sap:unit="TransactionCurrency" sap:variable-scale="true" sap:label="Base Amt."/>
+                <Property Name="DocumentReferenceID" Type="Edm.String" MaxLength="16" sap:label="Invoice No"/>
+                <Property Name="DocumentDate" Type="Edm.DateTime" Precision="0" sap:display-format="Date" sap:label="Invoice Date" sap:quickinfo="RESTful ABAP Programming: Data Type of Remote Service"/>
+                <Property Name="InvoiceReceiptDate" Type="Edm.DateTime" Precision="0" sap:display-format="Date" sap:label="Date Inv Rec" sap:quickinfo="RESTful ABAP Programming: Data Type of Remote Service"/>
+                <Property Name="AccountingDocumentCreationDate" Type="Edm.DateTime" Precision="0" sap:display-format="Date" sap:label="Invoice entered on" sap:quickinfo="RESTful ABAP Programming: Data Type of Remote Service"/>
+                <Property Name="NetDueDate" Type="Edm.DateTime" Precision="0" sap:display-format="Date" sap:label="Inv Due Date" sap:quickinfo="RESTful ABAP Programming: Data Type of Remote Service"/>
+                <Property Name="PostingDate" Type="Edm.DateTime" Precision="0" sap:display-format="Date" sap:label="Date Inv Posted" sap:quickinfo="RESTful ABAP Programming: Data Type of Remote Service"/>
+                <Property Name="ClearingCreationDate" Type="Edm.DateTime" Precision="0" sap:display-format="Date" sap:label="RESTful ABAP Programming: Data Type of Remote Service" sap:heading=""/>
+                <Property Name="ClearingDate" Type="Edm.DateTime" Precision="0" sap:display-format="Date" sap:label="RESTful ABAP Programming: Data Type of Remote Service" sap:heading=""/>
+                <Property Name="Paystat" Type="Edm.String" MaxLength="10"/>
+                <Property Name="PaymentMethod" Type="Edm.String" MaxLength="1"/>
+                <Property Name="ClearingAccountingDocument" Type="Edm.String" MaxLength="10"/>
+                <Property Name="UniqueId" Type="Edm.String" MaxLength="25"/>
+                <Property Name="AccountingDocCreatedByUser" Type="Edm.String" MaxLength="12"/>
+                <Property Name="PurchasingDocument" Type="Edm.String" MaxLength="10"/>
+                <Property Name="TransactionCurrency" Type="Edm.String" MaxLength="5" sap:semantics="currency-code"/>
+                <Property Name="CostCenter" Type="Edm.String" MaxLength="10"/>
+                <Property Name="CostCenterName" Type="Edm.String" MaxLength="20"/>
+                <Property Name="CompanyCodeName" Type="Edm.String" MaxLength="25"/>
+                <Property Name="paymentamount" Type="Edm.Decimal" Precision="23" Scale="3" sap:unit="payment_currency" sap:variable-scale="true"/>
+                <Property Name="payment_currency" Type="Edm.String" MaxLength="5" sap:semantics="currency-code"/>
+                <Property Name="AccountingDocumentHeaderText" Type="Edm.String" MaxLength="25"/>
+                <Property Name="AccountingDocumentType" Type="Edm.String" MaxLength="2"/>
+                <Property Name="AccountingDocumentTypeName" Type="Edm.String" MaxLength="20"/>
+                <Property Name="LastChangeDate" Type="Edm.DateTime" Precision="0" sap:display-format="Date" sap:label="RESTful ABAP Programming: Data Type of Remote Service" sap:heading=""/>
+                <Property Name="PaymentReference" Type="Edm.String" MaxLength="30"/>
+                <Property Name="PostingKey" Type="Edm.String" MaxLength="2"/>
+                <Property Name="ClearingIsReversed" Type="Edm.Boolean" sap:display-format="UpperCase" sap:label="Truth Value" sap:quickinfo="Truth Value: True/False"/>
+                <Property Name="IsNegativePosting" Type="Edm.Boolean" sap:display-format="UpperCase" sap:label="Truth Value" sap:quickinfo="Truth Value: True/False"/>
+                <Property Name="HasPaymentOrder" Type="Edm.Boolean" sap:display-format="UpperCase" sap:label="Truth Value" sap:quickinfo="Truth Value: True/False"/>
+                <Property Name="ReferenceDocumentType" Type="Edm.String" MaxLength="5"/>
+                <Property Name="OriginalTaxBaseAmount" Type="Edm.Decimal" Precision="23" Scale="3" sap:unit="TransactionCurrency" sap:variable-scale="true"/>
+                <Property Name="TaxAmount" Type="Edm.Decimal" Precision="23" Scale="3" sap:unit="TransactionCurrency" sap:variable-scale="true"/>
+                <Property Name="TaxBaseAmountInTransCrcy" Type="Edm.Decimal" Precision="23" Scale="3" sap:unit="TransactionCurrency" sap:variable-scale="true"/>
+                <Property Name="WithholdingTaxBaseAmount" Type="Edm.Decimal" Precision="23" Scale="3" sap:unit="TransactionCurrency" sap:variable-scale="true"/>
+                <Property Name="NetPaymentAmount" Type="Edm.Decimal" Precision="23" Scale="3" sap:unit="TransactionCurrency" sap:variable-scale="true"/>
+                <Property Name="PaymentCurrency" Type="Edm.String" MaxLength="5" sap:semantics="currency-code"/>
+                <Property Name="AmountInPaymentCurrency" Type="Edm.Decimal" Precision="23" Scale="3" sap:unit="PaymentCurrency" sap:variable-scale="true"/>
+                <Property Name="CreationTime" Type="Edm.Time" Precision="0" sap:label="RESTful ABAP Programming: Data Type of Remote Service" sap:heading=""/>
+                <Property Name="TransactionCode" Type="Edm.String" MaxLength="20"/>
+                <Property Name="ReverseDocument" Type="Edm.String" MaxLength="10"/>
+                <Property Name="ReverseDocumentFiscalYear" Type="Edm.String" MaxLength="4" sap:display-format="NonNegative"/>
+                <Property Name="IsReversal" Type="Edm.Boolean" sap:display-format="UpperCase" sap:label="Truth Value" sap:quickinfo="Truth Value: True/False"/>
+                <Property Name="IsReversed" Type="Edm.Boolean" sap:display-format="UpperCase" sap:label="Truth Value" sap:quickinfo="Truth Value: True/False"/>
+            </EntityType>
+            <EntityType Name="SAP__Currency" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="CurrencyCode"/>
+                </Key>
+                <Property Name="CurrencyCode" Type="Edm.String" Nullable="false" MaxLength="5" sap:label="Currency" sap:semantics="currency-code"/>
+                <Property Name="ISOCode" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="ISO code"/>
+                <Property Name="Text" Type="Edm.String" Nullable="false" MaxLength="15" sap:label="Short text"/>
+                <Property Name="DecimalPlaces" Type="Edm.Byte" Nullable="false" sap:label="Decimals"/>
+            </EntityType>
+            <EntityType Name="SAP__UnitOfMeasure" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="UnitCode"/>
+                </Key>
+                <Property Name="UnitCode" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Internal UoM" sap:semantics="unit-of-measure"/>
+                <Property Name="ISOCode" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="ISO code"/>
+                <Property Name="ExternalCode" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Commercial"/>
+                <Property Name="Text" Type="Edm.String" Nullable="false" MaxLength="30" sap:label="UoM Text"/>
+                <Property Name="DecimalPlaces" Type="Edm.Int16" sap:label="Decimal Places"/>
+            </EntityType>
+            <EntityContainer Name="cds_z_sdef_acc_doc_Entities" m:IsDefaultEntityContainer="true" sap:message-scope-supported="true" sap:supported-formats="atom json xlsx">
+                <EntitySet Name="ACCDOC" EntityType="cds_z_sdef_acc_doc.ACCDOCType" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1"/>
+                <EntitySet Name="SAP__Currencies" EntityType="cds_z_sdef_acc_doc.SAP__Currency" sap:content-version="1"/>
+                <EntitySet Name="SAP__UnitsOfMeasure" EntityType="cds_z_sdef_acc_doc.SAP__UnitOfMeasure" sap:content-version="1"/>
+            </EntityContainer>
+            <Annotations Target="cds_z_sdef_acc_doc.cds_z_sdef_acc_doc_Entities" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+                <Annotation Term="Common.ApplyMultiUnitBehaviorForSortingAndFiltering" Bool="true"/>
+            </Annotations>
+            <Annotations Target="cds_z_sdef_acc_doc.cds_z_sdef_acc_doc_Entities" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+                <Annotation Term="Org.OData.Capabilities.V1.BatchSupport">
+                    <Record Type="Org.OData.Capabilities.V1.BatchSupportType">
+                        <PropertyValue Property="ReferencesAcrossChangeSetsSupported" Bool="true"/>
+                    </Record>
+                </Annotation>
+                <Annotation Term="SAP__CodeList.CurrencyCodes">
+                    <Record>
+                        <PropertyValue Property="Url" String="./$metadata"/>
+                        <PropertyValue Property="CollectionPath" String="SAP__Currencies"/>
+                    </Record>
+                </Annotation>
+                <Annotation Term="SAP__CodeList.UnitsOfMeasure">
+                    <Record>
+                        <PropertyValue Property="Url" String="./$metadata"/>
+                        <PropertyValue Property="CollectionPath" String="SAP__UnitsOfMeasure"/>
+                    </Record>
+                </Annotation>
+            </Annotations>
+            <Annotations Target="cds_z_sdef_acc_doc.SAP__Currency/CurrencyCode" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+                <Annotation Term="SAP__common.Text" Path="Text"/>
+                <Annotation Term="SAP__common.UnitSpecificScale" Path="DecimalPlaces"/>
+                <Annotation Term="SAP__CodeList.StandardCode" Path="ISOCode"/>
+            </Annotations>
+            <Annotations Target="cds_z_sdef_acc_doc.SAP__UnitOfMeasure/UnitCode" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+                <Annotation Term="SAP__common.Text" Path="Text"/>
+                <Annotation Term="SAP__common.UnitSpecificScale" Path="DecimalPlaces"/>
+                <Annotation Term="SAP__CodeList.StandardCode" Path="ISOCode"/>
+                <Annotation Term="SAP__CodeList.ExternalCode" Path="ExternalCode"/>
+            </Annotations>
+            <Annotations Target="cds_z_sdef_acc_doc.SAP__UnitOfMeasure" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+                <Annotation Term="SAP__core.AlternateKeys">
+                    <Collection>
+                        <Record>
+                            <PropertyValue Property="Key">
+                                <Collection>
+                                    <Record>
+                                        <PropertyValue Property="Name" Path="ExternalCode"/>
+                                        <PropertyValue Property="Alias" String="ExternalCode"/>
+                                    </Record>
+                                </Collection>
+                            </PropertyValue>
+                        </Record>
+                    </Collection>
+                </Annotation>
+            </Annotations>
+            <atom:link rel="self" href="https://2019cf86-390a-4931-b310-a4158abf8829.abap.eu10.hana.ondemand.com/sap/opu/odata/sap/Z_ACC_DOC_API_V2/$metadata" xmlns:atom="http://www.w3.org/2005/Atom"/>
+            <atom:link rel="latest-version" href="https://2019cf86-390a-4931-b310-a4158abf8829.abap.eu10.hana.ondemand.com/sap/opu/odata/sap/Z_ACC_DOC_API_V2/$metadata" xmlns:atom="http://www.w3.org/2005/Atom"/>
+        </Schema>
+    </edmx:DataServices>
+</edmx:Edmx>

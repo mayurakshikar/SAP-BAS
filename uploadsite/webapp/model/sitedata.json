@@ -1,0 +1,29 @@
+{"sited" : [
+        {
+            "Site": "1005",
+            "Refsite": "1334",
+            "Siteprof": "1000",
+            "Sitename": "1003",
+            "Street": "",
+            "Houseno": "",
+            "PostalCode": "",
+            "City": "",
+            "Country": "",
+            "CompanyCode": "",
+            "StoreType": ""
+        },
+        {
+            "Site": "1007",
+            "Refsite": "1334",
+            "Siteprof": "1000",
+            "Sitename": "1003",
+            "Street": "",
+            "Houseno": "",
+            "PostalCode": "",
+            "City": "",
+            "Country": "",
+            "CompanyCode": "",
+            "StoreType": ""
+        }
+    ]
+}
