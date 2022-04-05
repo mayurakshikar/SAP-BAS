@@ -32,4 +32,7 @@ A Fiori application.
 
 1. Active NodeJS LTS (Long Term Support) version and associated supported NPM version.  (See https://nodejs.org)
 
+#### Note:
+I was getting Cannot GET /test/model/data.json error. So, I added the data.json file in the test folder too.
+
 
