@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run FirstApplicationFiori-index",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/firstapplicationfiori-approuter/node_modules/@sap/html5-repo-mock/index.js",
+      "args": [
+        "--standalone",
+        "/indexindex/index.html",
+        "--ui5",
+        "{\"version\":\".\"}"
+      ],
+      "cwd": "${workspaceFolder}/index",
+      "env": {
+        "PORT": "6004",
+        "MOCK_LOOKUP_DIRS": "[\"webapp\"]",
+        "run.config": "{\"handlerId\":\"ui5_run_config_handler_id\",\"runnableId\":\"/home/user/projects/FirstApplicationFiori/index\"}"
+      },
+      "envFile": "${workspaceFolder}/index/.env2",
+      "preLaunchTask": "Build FirstApplicationFiori"
+    }
+  ]
+}
